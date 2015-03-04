@@ -1,0 +1,48 @@
+body {
+  background: #FFFFFF;
+  border-radius: 6px;
+  border-color: #000000;
+  display: block;
+  /*
+  font: 12px/24px "Source Code Pro", Inconsolata, "Lucida Console", Terminal, "Courier New", Courier;
+  */
+  padding: 24px 15px;
+  /*text-align: center;*/
+}
+header,
+section,
+aside,
+footer {
+  margin: 0 3.5% 80px 3.5%;
+
+}
+
+body header section {
+  float: left;
+  width: 25%;
+  /*font: 48px/24px "Source Code Pro", Inconsolata, "Lucida Console", Terminal, "Courier New", Courier;
+  */
+}
+aside {
+  float: left;
+  width: 60%;
+}
+body section,
+footer {
+  clear: both;
+  margin-bottom: 0;
+}
+.heading {
+  font: 48px/24px "Source Code Pro", Inconsolata, "Lucida Console", Terminal, "Courier New", Courier;
+}
+
+.logo-left {
+  float: left;
+}
+.logo-right {
+  float: right;
+}
+
+table {
+  text-align: center;
+}
